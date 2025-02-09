@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Arquivo e URL com VirusTotal</title>
+</head>
+<body>
+    <h1>Verificar Arquivo ou URL com VirusTotal</h1>
+    
+    <!-- Formulário para enviar um arquivo -->
+    <h2>Verificar Arquivo</h2>
+    <form id="file-form">
+        <input type="file" id="file-input" name="file">
+        <button type="submit">Verificar Arquivo</button>
+    </form>
+    
+    <!-- Formulário para enviar uma URL -->
+    <h2>Verificar URL</h2>
+    <form id="url-form">
+        <input type="url" id="url-input" name="url" placeholder="Digite a URL" required>
+        <button type="submit">Verificar URL</button>
+    </form>
+    
+    <div id="result"></div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
